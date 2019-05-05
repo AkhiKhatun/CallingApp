@@ -20,12 +20,13 @@
         android:textSize="22sp" />
 
     <EditText
-        android:id="@+id/txt_message"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:layout_marginTop="10dp"
         android:hint="Enter Text"
-        android:textSize="22sp" />
+        android:gravity="top"
+        android:textSize="22sp"
+        android:id="@+id/txt_message" />
 
     <Button
         android:layout_width="match_parent"
@@ -40,5 +41,7 @@
         android:layout_height="wrap_content"
         android:text="Make Call"
         android:textSize="20dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        />
+
 </LinearLayout>
